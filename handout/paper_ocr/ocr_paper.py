@@ -10,13 +10,6 @@ def main():
     #print(type(result))
     everySingleWord = result.split()
     print(everySingleWord)
-    count = 0
-    for word in everySingleWord:
-        if(word == "Visual"):
-            continue
-        count += 1
-    print("word number is " + str(len(everySingleWord)))
-    print("word number without Visual is " + str(count))
     
     
 if __name__ == "__main__":
